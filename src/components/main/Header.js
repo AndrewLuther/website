@@ -11,7 +11,7 @@ function Header() {
         </Link>
         |
         <Link className={classes.link} to="/projects">
-          <button className={classes.button}>Projects</button>
+          <button className={classes.button}>Programming</button>
         </Link>
         |
         <Link className={classes.link} to="/compositions">

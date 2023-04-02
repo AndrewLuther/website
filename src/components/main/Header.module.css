@@ -19,7 +19,7 @@
 
 .link{
     margin:auto;
-    width: 4em;
+    width: 7em;
 }
 
 .button {
@@ -27,6 +27,7 @@
     background-color: rgb(240, 240, 240);
     color: black;
     transition: 0.25s;
+    width: 100%;
 }
 
 .button:hover {
