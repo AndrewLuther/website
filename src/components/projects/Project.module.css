@@ -1,0 +1,49 @@
+.main{
+    margin: 1em;
+    text-align: center;
+    display: flex;
+}
+
+.text{
+    text-align: left;
+    width: 65%;
+}
+
+.projectImage{
+    display: inline;
+    width: 10em;
+    height:10em;
+    margin: auto;
+    margin-right: 0;
+    border: 2px solid black;
+    border-radius: 1em;
+    background-color: lightblue;
+}
+
+.button {
+
+    border: none;
+    background-color: rgb(240, 240, 240);
+    color: black;
+    transition: 0.25s;
+}
+
+.button:hover {
+    color: #aadcff;
+}
+
+@media(max-width:450px) {
+    .main{
+        display: block;
+    }
+
+    .text{
+        text-align: left;
+        width: 100%;
+    }
+
+    .projectImage{
+        width: 10em;
+        height:10em;
+    }
+}

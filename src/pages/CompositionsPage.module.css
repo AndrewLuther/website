@@ -1,0 +1,10 @@
+.header {
+    text-align: center;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    width: 30% fit-content;
+    padding: 3px;
+    margin:auto
+}

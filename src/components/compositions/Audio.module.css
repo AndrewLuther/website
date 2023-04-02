@@ -1,0 +1,16 @@
+.main{
+    margin: 1em;
+    text-align: left;
+}
+
+.audioPlayer{
+    width: 100%;
+    border: 2px solid rgb(170, 170, 170);
+    background-color: #aadcff;
+    border-radius: 10px;
+}
+
+
+audio::-webkit-media-controls-panel {
+  background-color: #aadcff;
+}

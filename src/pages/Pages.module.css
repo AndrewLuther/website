@@ -1,0 +1,17 @@
+.app {
+    margin: 3rem auto;
+    width: 90%;
+    max-width: 40rem;
+    font-family: Garamond, serif;
+
+}
+
+.box {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    margin: 2em 0em 2em 0em;
+}
+
+
