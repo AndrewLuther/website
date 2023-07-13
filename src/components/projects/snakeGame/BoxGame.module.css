@@ -1,0 +1,22 @@
+h3 {
+    margin: 1em
+}
+
+canvas {
+    margin: 2em;
+    background-color: rgb(204, 202, 202);
+    border: 2px solid black;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 0.5em;
+    background-color: rgb(240, 240, 240);
+    color: black;
+    transition: 0.25s;
+    margin: 1.5em;
+}
+
+.button:hover {
+    color: #aadcff;
+}
