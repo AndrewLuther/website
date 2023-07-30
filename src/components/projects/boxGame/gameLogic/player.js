@@ -45,6 +45,15 @@ class Player {
 
   addPoint() {
     this.pointsGained += 1;
+    this.updatePointDisplay();
+  }
+
+  resetPoints() {
+    this.pointsGained = 0;
+    this.updatePointDisplay();
+  }
+
+  updatePointDisplay() {
     const pointCounter = document.getElementById("boxGamePointCounter");
     pointCounter.textContent = "Points: " + this.pointsGained;
   }

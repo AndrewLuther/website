@@ -14,4 +14,27 @@
     margin: 2em 0em 2em 0em;
 }
 
+.headerButtons {
+    height: 2em;
+}
+
+.button {
+    margin: 1em;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    color: black;
+    transition: 0.25s;
+}
+
+.button:hover {
+    color: #aadcff;
+}
+
+.projectsButton {
+    float:left;
+}
+
+.howToPlayButton {
+    float:right;
+}
 

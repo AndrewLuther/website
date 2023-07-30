@@ -16,7 +16,9 @@ class BoxGame {
 
   startGame(startButton) {
     this.canvas = new Canvas();
-    this.canvas.updateWidthAndHeight();
+    if (this.player) {
+      this.player.resetPoints();
+    }
     startButton.innerText = "End Game";
     this.gameStarted = true;
     this.intervalValue = 10;
@@ -41,7 +43,6 @@ class BoxGame {
   }
 
   updateCanvas() {
-    this.canvas.updateWidthAndHeight();
     const ctx = this.canvas.element.getContext("2d");
     ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
     this.player.draw();

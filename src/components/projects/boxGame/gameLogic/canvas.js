@@ -1,9 +1,6 @@
 class Canvas {
   constructor() {
     this.element = document.getElementById("boxGameCanvas");
-  }
-
-  updateWidthAndHeight() {
     this.width = this.element.width;
     this.height = this.element.height;
   }

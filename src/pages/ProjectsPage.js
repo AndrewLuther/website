@@ -5,6 +5,7 @@ import Project from "../components/projects/Project";
 import SnowKing from "../images/big_snow_king.png";
 import Chord from "../images/chord.png";
 import moreScore from "../images/moreScoreLogo.png";
+import box from "../images/box.png";
 
 function ProjectsPage() {
   const moreScoreText =
@@ -19,10 +20,26 @@ function ProjectsPage() {
     "Chord Progression Generator outputs a random list of chords " +
     "in any user-defined major or minor scale (e.g. C major).";
 
+  const boxText =
+    "Box Game is a simple game I programmed to work on my skills in JavaScript. It is " +
+    "inspired by the popular game 'Snake'. Click the link below to give it a try!";
+
   return (
     <div className={classes.app}>
       <div className={classes.box}>
         <Header />
+      </div>
+
+      <div className={classes.box}>
+        <Project
+          title="Box Game"
+          subTitle="July 2023"
+          image={box}
+          text={boxText}
+          hasGithub={false}
+          hasPlayLink={true}
+          playLink="box_game"
+        />
       </div>
 
       <div className={classes.box}>

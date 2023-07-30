@@ -3,6 +3,7 @@ import GameCanvas from "./GameCanvas";
 import PointCounter from "./PointCounter";
 import BoxGame from "./gameLogic/game";
 import Direction from "./gameLogic/direction";
+import MobileControls from "./MobileControls";
 
 function BoxGameHtml() {
   const game = new BoxGame();
@@ -17,9 +18,7 @@ function BoxGameHtml() {
   }
 
   window.addEventListener("keydown", (event) => {
-    if (event.defaultPrevented) {
-      return;
-    }
+    event.preventDefault();
     switch (event.key) {
       case "ArrowDown":
         game.player.direction = Direction.DOWN;
@@ -39,8 +38,11 @@ function BoxGameHtml() {
   });
 
   return (
-    <div>
-      <h3>Box Game</h3>
+    <div className={classes.boxGame}>
+      <div className={classes.gameTitleAndPoints}>
+        <h2>Box Game</h2>
+        <PointCounter />
+      </div>
       <button
         id="boxGameStartButton"
         className={classes.button}
@@ -49,7 +51,7 @@ function BoxGameHtml() {
         Start Game
       </button>
       <GameCanvas />
-      <PointCounter />
+      <MobileControls game={game} />
     </div>
   );
 }

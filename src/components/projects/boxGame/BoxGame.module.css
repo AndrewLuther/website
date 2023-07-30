@@ -2,21 +2,23 @@ h3 {
     margin: 1em
 }
 
+.boxGame {
+    text-align: center;
+}
+
 .gameCanvas {
-    margin: 2em;
+    margin: 1em 0em 2em 0em;
+    border-radius: 0.5em;
     background-color: rgb(204, 202, 202);
     border: 2px solid black;
 }
 
-.gameCanvasContainer {
-    text-align: center;
-}
-
 .button {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 0.5em;
     background-color: rgb(240, 240, 240);
     color: black;
+    padding: 0.5em;
     transition: 0.25s;
     margin: 1.5em;
 }
@@ -25,7 +27,11 @@ h3 {
     color: #aadcff;
 }
 
-.pointCounter {
+.gameTitleAndPoints {
+    margin: 1em;
+}
+
+.controlButton {
     
 }
 

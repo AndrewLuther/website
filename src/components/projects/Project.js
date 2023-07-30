@@ -14,6 +14,12 @@ function Project(props) {
             <button className={classes.button}>Github</button>
           </Link>
         )}
+
+        {props.hasPlayLink && (
+          <Link to={props.playLink}>
+            <button className={classes.button}>Play</button>
+          </Link>
+        )}
       </div>
 
       <img
