@@ -1,14 +1,14 @@
 import classes from "./Pages.module.css";
-import BoxGame from "../components/projects/snakeGame/BoxGame";
+import BoxGameHtml from "../components/projects/boxGame/BoxGameHtml";
 
-function SnakeGamePage() {
+function BoxGamePage() {
   return (
     <div className={classes.app}>
-      <div className={classes.box}>
-        <BoxGame />
+      <div className={classes.box} id="boxGamePageBox">
+        <BoxGameHtml />
       </div>
     </div>
   );
 }
 
-export default SnakeGamePage;
+export default BoxGamePage;
