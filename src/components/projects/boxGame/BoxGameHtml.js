@@ -5,7 +5,7 @@ import BoxGame from "./gameLogic/game";
 import Direction from "./gameLogic/direction";
 import MobileControls from "./MobileControls";
 
-function BoxGameHtml() {
+function BoxGameHtml(props) {
   const game = new BoxGame();
 
   function onStartButtonClick() {
@@ -38,7 +38,7 @@ function BoxGameHtml() {
   });
 
   return (
-    <div className={classes.boxGame}>
+    <div className={classes.boxGame} id="boxGameHtml">
       <div className={classes.gameTitleAndPoints}>
         <h2>Box Game</h2>
         <PointCounter />

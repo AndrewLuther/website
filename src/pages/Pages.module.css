@@ -12,6 +12,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 20px;
     margin: 2em 0em 2em 0em;
+    transition: height 0.5s;
 }
 
 .headerButtons {
@@ -38,3 +39,14 @@
     float:right;
 }
 
+.boxGameContent {
+    margin: 1em;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.noHeight {
+    height: 0;
+}

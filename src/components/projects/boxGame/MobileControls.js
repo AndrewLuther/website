@@ -10,14 +10,14 @@ function MobileControls(props) {
 
   if (isMobileDevice()) {
     return (
-      <div>
+      <div className={classes.mobileControls}>
         <button
           className={[classes.controlButton, classes.button].join(" ")}
           onClick={() => {
             changeDirection(Direction.UP);
           }}
         >
-          up
+          UP
         </button>
         <div id="leftRightButtons">
           <button
@@ -26,7 +26,7 @@ function MobileControls(props) {
               changeDirection(Direction.LEFT);
             }}
           >
-            left
+            LEFT
           </button>
           <button
             className={[classes.controlButton, classes.button].join(" ")}
@@ -34,7 +34,7 @@ function MobileControls(props) {
               changeDirection(Direction.RIGHT);
             }}
           >
-            right
+            RIGHT
           </button>
         </div>
         <button
@@ -43,7 +43,7 @@ function MobileControls(props) {
             changeDirection(Direction.DOWN);
           }}
         >
-          down
+          DOWN
         </button>
       </div>
     );

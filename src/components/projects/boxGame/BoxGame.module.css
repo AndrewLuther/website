@@ -4,6 +4,7 @@ h3 {
 
 .boxGame {
     text-align: center;
+    transition: opacity 0.5s;
 }
 
 .gameCanvas {
@@ -31,7 +32,24 @@ h3 {
     margin: 1em;
 }
 
-.controlButton {
-    
+.mobileControls {
+    margin-bottom: 2em;
 }
 
+.controlButton {
+    width: 6em;
+    height: 4em;
+    margin: 0.5em 3em;
+}
+
+.howToPlay {
+    transition: opacity 0.5s;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.noHeight {
+    height: 0;
+}
