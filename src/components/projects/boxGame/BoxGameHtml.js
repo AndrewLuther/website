@@ -5,7 +5,7 @@ import BoxGame from "./gameLogic/game";
 import Direction from "./gameLogic/direction";
 import MobileControls from "./MobileControls";
 
-function BoxGameHtml(props) {
+function BoxGameHtml() {
   const game = new BoxGame();
 
   function onStartButtonClick() {
