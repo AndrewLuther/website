@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import classes from "./TeamPlanner.module.css";
+// import { useEffect, useState } from "react";
+// import classes from "./TeamPlanner.module.css";
 
 function TeamMember(props) {
   // const [pokemonJson, setPokemonJson] = useState({
