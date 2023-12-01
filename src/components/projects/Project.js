@@ -9,9 +9,9 @@ function Project(props) {
         <h3>{props.subTitle}</h3>
         <p className={classes.projectDesc}>{props.text}</p>
 
-        {props.hasGithub && (
-          <Link to={props.githubLink}>
-            <button className={classes.button}>Github</button>
+        {props.hasLink && (
+          <Link to={props.link}>
+            <button className={classes.button}>{props.buttonText}</button>
           </Link>
         )}
 

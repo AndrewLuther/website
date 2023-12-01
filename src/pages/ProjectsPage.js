@@ -36,9 +36,9 @@ function ProjectsPage() {
           subTitle="July 2023"
           image={box}
           text={boxText}
-          hasGithub={false}
-          hasPlayLink={true}
-          playLink="box_game"
+          hasLink={true}
+          link="box_game"
+          buttonText="Play"
         />
       </div>
 
@@ -48,7 +48,9 @@ function ProjectsPage() {
           subTitle="August 2022"
           image={moreScore}
           text={moreScoreText}
-          hasGithub={false}
+          hasLink={true}
+          link="https://morescore.herokuapp.com/"
+          buttonText="Try"
         />
       </div>
 
@@ -58,8 +60,9 @@ function ProjectsPage() {
           subTitle="April 2022"
           image={Chord}
           text={chordText}
-          hasGithub={true}
-          githubLink="https://github.com/AndrewLuther/Chord_Progression_Generator"
+          hasLink={true}
+          link="https://github.com/AndrewLuther/Chord_Progression_Generator"
+          buttonText="GitHub"
         />
       </div>
 
@@ -69,8 +72,9 @@ function ProjectsPage() {
           subTitle="March 2022"
           image={SnowKing}
           text={kingdominoText}
-          hasGithub={true}
-          githubLink="https://github.com/AndrewLuther/Kingdomino"
+          hasLink={true}
+          link="https://github.com/AndrewLuther/Kingdomino"
+          buttonText="GitHub"
         />
       </div>
 

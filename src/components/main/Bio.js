@@ -18,11 +18,11 @@ function Bio() {
         under the direction of professors Florian Hoefner and Bill Brennan,
         respectively.
         <br />
-        <br />I have also been pursuing a Bachelor of Science with a major in
+        <br />I will soon complete a Bachelor of Science with a major in
         Computer Science at Memorial University, and I have been developing my
         programming and research skills. You can find some of my programming
-        projects <Link to="/projects">here</Link>. Currently, I am completing an
-        internship at Compusult Ltd. in Mount Pearl Newfoundland, where I work
+        projects <Link to="/projects">here</Link>. Recently, I completed a
+        12-month internship at Compusult Ltd. in Mount Pearl, NL, where I worked
         as a Programmer/Developer.
         <br />
         <br />
