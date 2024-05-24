@@ -10,7 +10,7 @@ import box from "../images/box.png";
 function ProjectsPage() {
   const moreScoreText =
     "MoreScore is an application I developed during a research grant funded by NSERC under the supervision of " +
-    "Dr. Antonina Kolokolova.";
+    "Dr. Antonina Kolokolova. I am continuing development during the summer of 2024 thanks to a second NSERC grant.";
 
   const kingdominoText =
     "Kingdomino is a digital version of the board game, developed in Java. " +
@@ -32,6 +32,18 @@ function ProjectsPage() {
 
       <div className={classes.box}>
         <Project
+          title="MoreScore"
+          subTitle="August 2022, 2024"
+          image={moreScore}
+          text={moreScoreText}
+          hasLink={true}
+          link="https://morescore.reflex.run/"
+          buttonText="Try"
+        />
+      </div>
+
+      <div className={classes.box}>
+        <Project
           title="Box Game"
           subTitle="July 2023"
           image={box}
@@ -39,18 +51,6 @@ function ProjectsPage() {
           hasLink={true}
           link="box_game"
           buttonText="Play"
-        />
-      </div>
-
-      <div className={classes.box}>
-        <Project
-          title="MoreScore"
-          subTitle="August 2022"
-          image={moreScore}
-          text={moreScoreText}
-          hasLink={true}
-          link="https://morescore.herokuapp.com/"
-          buttonText="Try"
         />
       </div>
 
