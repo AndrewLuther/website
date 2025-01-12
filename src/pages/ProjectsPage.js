@@ -37,7 +37,7 @@ function ProjectsPage() {
           image={moreScore}
           text={moreScoreText}
           hasLink={true}
-          link="https://morescore.reflex.run/"
+          link="https://morescore_website-silver-piano.reflex.run/"
           buttonText="Try"
         />
       </div>
