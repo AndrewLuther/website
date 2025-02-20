@@ -10,7 +10,7 @@ import box from "../images/box.png";
 function ProjectsPage() {
   const moreScoreText =
     "MoreScore is an application I developed during a research grant funded by NSERC under the supervision of " +
-    "Dr. Antonina Kolokolova. I am continuing development during the summer of 2024 thanks to a second NSERC grant.";
+    "Dr. Antonina Kolokolova.";
 
   const kingdominoText =
     "Kingdomino is a digital version of the board game, developed in Java. " +
