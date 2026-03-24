@@ -1,5 +1,5 @@
 import classes from "./Pages.module.css";
-import headshot from "../images/headshot.jpg";
+import headshot from "../images/headshot2024_square_small.jpg";
 import Image from "../components/Image";
 import Header from "../components/main/Header";
 import Bio from "../components/main/Bio";

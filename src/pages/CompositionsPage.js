@@ -10,6 +10,14 @@ import caveOfMysteries from "../audio/Cave_of_Mysteries.mp3";
 import blitzkriegBoogie from "../audio/Blitzkrieg_Boogie.mp3";
 
 function CompositionsPage() {
+  const diredireDesc = 
+  "\"Dire Dire Disco\" is a fun composition using the Super Mario 64 soundfont. All sounds in the song come from the video game Super Mario 64. " +
+  "While writing this piece, I tried to experiment with odd/irregular time signatures, throwing in unexpected rhythmic elements throughout the composition."
+
+  const gullsDesc = 
+  "\"Please Don't Feed Me to the Gulls\" is my first composition that incorporates vocals (recorded by Bridget Swift). Bridget and I worked together to write " +
+  "the lyrics and vocal melody, and I produced and mixed the composition in Ableton Live."
+
   const getawayDesc =
     '"Getaway" is a peaceful electronic composition written about a rocky beach in York Harbour. ' +
     "It's about nature, and it's capability to give one an escape from everyday life. This music video features appearances by " +
@@ -28,9 +36,6 @@ function CompositionsPage() {
   const caveOfMysteriesDesc =
     '"Cave of Mysteries" was written using Sonic Pi, a code-based music-creation and performance tool. ' +
     "The code can be run in the Sonic Pi software, which uses a Ruby-based coding environment. ";
-  // "Find the code" +
-  // <a href="https://github.com/AndrewLuther/Cave-of-Mysteries">here</a> +
-  // ".";
 
   const blitzkriegBoogieDesc =
     '"Blitzkrieg Boogie" is a groove-based electronic composition that was written using Audio Mulch. ' +
@@ -43,6 +48,25 @@ function CompositionsPage() {
       </div>
 
       <h2 className={compClasses.header}>- Videos -</h2>
+
+      <div className={classes.box}>
+        <Video
+          title="Please Don't Feed Me to the Gulls"
+          subTitle="October 2025"
+          description={gullsDesc}
+          src="https://www.youtube.com/embed/XcDyVasmk9g"
+        />
+      </div>
+
+
+      <div className={classes.box}>
+        <Video
+          title="Dire Dire Disco"
+          subTitle="August 2025"
+          description={diredireDesc}
+          src="https://www.youtube.com/embed/i9NXYy5vImM"
+        />
+      </div>
 
       <div className={classes.box}>
         <Video

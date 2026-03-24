@@ -10,6 +10,11 @@ function Bio() {
         interested in the application of computer science for electronic music
         composition, production, and analysis.
         <br />
+        <br />Currently, I am a Master's of Computer Science student at York University, under the supervision of
+        Dr. Vassilios Tzerpos. My coursework is complete and I am currently finishing my thesis. My thesis involves the evaluation of 
+        automatic music transcription (AMT) across various machine learning models.
+        I expect to graduate in Fall 2026.
+        <br/>
         <br />In 2024, I graduated with a Bachelor of Science in
         Computer Science at Memorial University, and I have been developing my
         programming and research skills. You can find some of my programming
@@ -23,9 +28,7 @@ function Bio() {
         under the direction of professors Florian Hoefner and Bill Brennan,
         respectively.
         <br />
-        <br />Currently, I am working on a Master's of Computer Science at York University, under the supervision of
-        Dr. Vassilios Tzerpos. My thesis will focus on using AI to create useful tools for composers and musicians.
-        <br/>
+        
         <br/>
         When I am not coding or composing, I enjoy hiking, gaming, and listening
         to music.
