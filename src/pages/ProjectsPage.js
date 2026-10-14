@@ -7,8 +7,11 @@ import Chord from "../images/chord.png";
 import moreScore from "../images/moreScoreLogo.png";
 import box from "../images/box.png";
 import rps from "../images/rps.png"
+import guppy from "../images/guppy.png"
 
 function ProjectsPage() {
+  const cardGameText = "A Discord bot for collecting virtual cards, using SQLite for data storage and Drizzle ORM for DB interactions."
+
   const rpsText =
   "This project is a web-based multiplayer application created as a learning exercise to build upon my web-development skills. " + 
   "The frontend and backend are both written using TypeScript, with websockets for seamless games between players."
@@ -33,6 +36,18 @@ function ProjectsPage() {
     <div className={classes.app}>
       <div className={classes.box}>
         <Header />
+      </div>
+
+      <div className={classes.box}>
+        <Project
+          title="Card Game (work in progress)"
+          subTitle="October 2026"
+          image={guppy}
+          text={cardGameText}
+          hasLink={true}
+          link="https://github.com/AndrewLuther/card-game"
+          buttonText="GitHub"
+        />
       </div>
 
       <div className={classes.box}>

@@ -12,8 +12,8 @@ function Bio() {
         <br />
         <br />Currently, I am a Master's of Computer Science student at York University, under the supervision of
         Dr. Vassilios Tzerpos. My coursework is complete and I am currently finishing my thesis. My thesis involves the evaluation of 
-        automatic music transcription (AMT) across various machine learning models.
-        I expect to graduate in Fall 2026.
+        automatic music transcription (AMT) across various machine learning models. I plan to defend my thesis during the Fall 2026 semester, 
+        and I am actively seeking employment opportunities.
         <br/>
         <br />In 2024, I graduated with a Bachelor of Science in
         Computer Science at Memorial University, and I have been developing my
