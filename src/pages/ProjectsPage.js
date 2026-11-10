@@ -40,12 +40,12 @@ function ProjectsPage() {
 
       <div className={classes.box}>
         <Project
-          title="Card Game (work in progress)"
-          subTitle="October 2026"
+          title="Gone Fishin"
+          subTitle="November 2026"
           image={guppy}
           text={cardGameText}
           hasLink={true}
-          link="https://github.com/AndrewLuther/card-game"
+          link="https://github.com/AndrewLuther/gone-fishin"
           buttonText="GitHub"
         />
       </div>
